@@ -159,10 +159,6 @@ a{
     width: 100%;
 }
 
-/* .nav .menu a.active{
-    border-bottom: 5px solid #00cc99;
-    width: 100%;
-} */
 
 .nav .menu li{
     position: relative;
@@ -192,11 +188,6 @@ a{
 
 
 /* header banner */
-/* .banner{
-    background: url(images/banner.png) no-repeat;
-    height: 345px;
-    position: relative;
-} */
 
 .box{
     width: 1000px;
@@ -294,6 +285,11 @@ a{
 }
 .lb-data{
     color:#f7f7f7;
+}
+
+.lb-outerContainer, .lb-image {
+    max-width: 500px !important;
+    max-height: 500px !important;
 }
 
 /* main table */
